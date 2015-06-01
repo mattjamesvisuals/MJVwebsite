@@ -1,0 +1,94 @@
+body{ 
+    margin:0;
+    background: url("background2.png") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+.navbar {
+    padding: 0px 15px;
+    margin: 0;
+}
+.logo { 
+  font-size: 75px;
+  color: white;
+  text-shadow:
+   -1px -1px 0 #000,  
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+     1px 1px 0 #000;
+  font-family: 'Poiret One', cursive;
+  text-align: left;
+  padding-left: 50px;
+}
+.mainimage {
+   position: absolute;
+    right: 725px;
+    width: 300px;
+    margin-top: 75px;
+}
+.icon {
+padding: 10;
+margin: ;
+width: 10em;
+display:inline;
+}
+.social li {
+  display:inline;
+  float: right;
+  margin: 5px;
+  padding-right: 10px;
+}
+.bio {
+  color: black;
+  position: absolute;
+  left: 200px;
+  width: 400px;
+  margin-top: 75px;
+} 
+.bphoto{
+  position: absolute;
+    right: 300px;
+    width: 400px;
+    margin-top: 25px;
+}
+.copyright{
+  font-size: 12px;
+  float: right;
+  margin-top: 600px;
+  text-align: right;
+  padding-right: 50px;
+  color: black;
+}
+.rslides {
+  position: relative;
+  list-style: none;
+  overflow: hidden;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  }
+
+.rslides li {
+  -webkit-backface-visibility: hidden;
+  position: absolute;
+  display: none;
+  width: 100%;
+  left: 0;
+  top: 0;
+  }
+
+.rslides li:first-child {
+  position: relative;
+  display: block;
+  float: left;
+  }
+
+.rslides img {
+  display: block;
+  height: auto;
+  float: left;
+  width: 100%;
+  border: 0;
+  }
