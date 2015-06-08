@@ -61,5 +61,8 @@ display:inline;
   padding-right: 50px;
   color: black;
 }
+.slideshow-nav{
+    display: block;
+}
 
 
