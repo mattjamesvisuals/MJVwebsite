@@ -1,3 +1,4 @@
+//TESTING
 (function() {
 	var support = { animations : Modernizr.cssanimations },
 		animEndEventNames = {
