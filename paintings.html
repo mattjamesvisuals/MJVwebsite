@@ -18,15 +18,26 @@
     <script src="galleria/galleria-1.4.min.js"></script>
 </head>
 <body>
-    <nav class="navbar navbar-inverse">
+   <nav class="navbar navbar-inverse">
+   <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+         <span class="sr-only">Toggle navigation</span>
+         <span class="icon-bar"></span>
+         <span class="icon-bar"></span>
+         <span class="icon-bar"></span>
+      </button>
+   </div>
+  <div class="collapse navbar-collapse" id="navbar">
       <ul class="nav navbar-nav navbar-right">
-        <li class="active"><a href="main.html">Home</a></li>
+        <li><a href="main.html">Home</a></li>
         <li><a href="bio.html">Bio</a></li>
-        <li><a href="paintings.html">Paintings</a></li>
+        <li class="active"><a href="paintings.html">Paintings</a></li>
         <li><a href="charcoal.html">Charcoal</a></li>
         <li><a href="contact.html">Contact</a></li>
       </ul>
-    </nav>
+  </div>
+  </nav>
+
     <link href='http://fonts.googleapis.com/css?family=Tangerine:400,700' rel='stylesheet' type='text/css'>
     <div class="icon">
     <ul class="social">
@@ -37,14 +48,15 @@
     </ul>
     </div>
     <div class="logo">Matt James Visuals</div>
-
-    <div class="galleria">
-        <img src="img/icon.png">
-        <img src="img/amy.png">
-        <img src="img/eve.png">
-        <img src="img/joan.png">
-        <img src="img/Mary.png">
-        <img src="img/mel.png">
+    <div class="slideshow">
+        <div class="galleria">
+            <img src="img/icon.png">
+            <img src="img/amy.png">
+            <img src="img/eve.png">
+            <img src="img/joan.png">
+            <img src="img/Mary.png">
+            <img src="img/mel.png">
+        </div>
     </div>
     <div class="copyright">&#169 2015 Matt James Visuals. All rights reserved</div>
 <!-- Latest compiled and minified JavaScript -->

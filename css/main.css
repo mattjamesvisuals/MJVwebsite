@@ -20,20 +20,25 @@ body{
      1px 1px 0 #000;
   font-family: 'Poiret One', cursive;
   text-align: left;
-  padding-left: 50px;
+  padding-left: 10%;
 }
-.mainimage {
-   position: absolute;
-    right: 725px;
-    width: 300px;
-    margin-top: 75px;
+.main-content {
+    position: fixed;
+    top: 65%;
+    left: 50%;
+    margin-top: -242px;
+    margin-left: -187.5px;
+}
+.main-image {
+    width: 375px;
+    height: 484px;
 }
 .icon {
-padding: 20;
-margin: 20;
-width: 10em;
-display:inline;
-margin-top: 750px;
+    padding: 20;
+    margin: 20;
+    width: 10em;
+    display:inline;
+    margin-top: 750px;
 }
 .social li {
   display:inline;
@@ -63,21 +68,31 @@ margin-top: 750px;
   color: black;
   position: center;
 }
+
 .galleria{ 
- height: 550px;
- width: 550px;
- background: #000;
- position: absolute;
- right: 550px;
- margin-top: 75px;
+     height: 550px;
+     width: 550px;
+     background: #000;
+     /*
+     position: absolute;
+     right: 550px;
+     margin-top: 75px;
+     */
 }
+.slideshow {
+    position: fixed;
+    top: 65%;
+    left: 50%;
+    margin-top: -275px;
+    margin-left: -275px;
+}
+
 .matchbox{
- position: absolute;
+    position: absolute;
     left: 100px;
     height:800px;
     width: 600px;
     margin-top: 125px; 
-
 }@import url(http://fonts.googleapis.com/css?family=Montserrat:400,700);
 
 /*html{    background:url(http://thekitemap.com/images/feedback-img.jpg) no-repeat;
@@ -246,5 +261,27 @@ input:focus, textarea:focus {
   }
 }
 
+/* Narrower than 1045px */ 
+@media (max-width: 1046px) {
+    .logo { 
+      font-size: 35px;
+    }
+    .main-content {
+        position: fixed;
+        top: 50%;
+        left: 50%;
+        margin-left: -94px;
+        margin-top: -121px;
+    }
+    .main-image {
+        width: 187.5px;
+        height: 242px;
+    }
+}
+        
 
-
+@media (max-width: 800px) {
+    .social {
+        display: none;
+    }
+}
