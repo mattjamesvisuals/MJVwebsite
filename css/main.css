@@ -46,7 +46,7 @@ body {
 .icon {
     padding: 20;
     margin: 20;
-    width: 10em;
+    width: 100%;
     display: inline;
     margin-top: 750px;
 }
@@ -63,6 +63,7 @@ body {
     float: left;
     width: 20%;
     margin-left: 10%;
+    margin-top:  140px;
 }
 
 .bio-photo {
@@ -74,7 +75,7 @@ body {
 }
 
 .bpphoto {
-    width: 400px;
+    width: 100%;
 }
 
 .copyright {
