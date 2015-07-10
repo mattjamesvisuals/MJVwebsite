@@ -7,6 +7,12 @@ body {
     background-size: cover;
 }
 
+.header {
+    z-index: 10;
+}
+.content {
+    z-index: 0;
+}
 .navbar {
     padding: 0px 15px;
     margin: 0;
@@ -25,8 +31,8 @@ body {
 }
 
 .main-content {
-    position: fixed;
-    top: 65%;
+    position: absolute;
+    top: 500px;
     left: 50%;
     margin-top: -242px;
     margin-left: -187.5px;
@@ -88,8 +94,8 @@ body {
 }
 
 .slideshow {
-    position: fixed;
-    top: 65%;
+    position: absolute;
+    top: 500px;
     left: 50%;
     margin-top: -275px;
     margin-left: -275px;
@@ -267,21 +273,21 @@ input:focus, textarea:focus {
     }
 
     .main-content {
-        position: fixed;
-        top: 60%;
+        position: absolute;
+        top: 375px;
         left: 50%;
-        margin-left: -125px;
-        margin-top: -161px;
+        margin-left: -175px;
+        margin-top: -226px;
     }
 
     .main-image {
-        width: 250px;
-        height: 323px;
+        width: 350px;
+        height: 452px;
     }
 
     .slideshow {
-        position: fixed;
-        top: 60%;
+        position: absolute;
+        top: 375px;
         left: 50%;
         margin-left: -200px;
         margin-top: -200px;
