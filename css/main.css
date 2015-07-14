@@ -104,20 +104,37 @@ body {
 
 .matchbox {
     position: absolute;
-    left: 100px;
-    height: 800px;
-    width: 600px;
-    margin-top: 125px;
+    height: 25%;
+    width: 25%;  
+    padding: 150px;
+}
+
+.form {
+    position: absolute;
+    right: 200px;
+    height: 350px;
+    width: 300px;
+    margin-top: 170px;
+    border: 10px;
+    border-color: black;
+    background-color: rgb(193, 193, 194);
+    padding-left: 35px;
+    padding-right: 35px;
+    padding-top: 35px;
+    padding-bottom: 50px;
+
 }
 
 @import url(http://fonts.googleapis.com/css?family=Montserrat:400,700);
+
+
 
 /*html{    background:url(http://thekitemap.com/images/feedback-img.jpg) no-repeat;
   background-size: cover;
   height:100%;
 }*/
 
-#feedback-page {
+/*#feedback-page {
     text-align: center;
 }
 
@@ -176,7 +193,7 @@ body {
 }
 
 /* Icons ---------------------------------- */
-#name {
+/*#name {
     background-image: url(http://rexkirby.com/kirbyandson/images/name.svg);
     background-size: 30px 30px;
     background-position: 11px 8px;
