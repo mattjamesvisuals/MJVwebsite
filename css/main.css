@@ -77,20 +77,22 @@ body {
 
 
 /* bio page styles */
+section {
+    width: 82%;
+    margin: auto;
+    padding: 10px;
+}
+
 .bio {
     color: black;
     float: left;
-    width: 20%;
-    margin-left: 10%;
-    margin-top:  140px;
+    width: 65%;
+    padding-right: 10px;
 }
 
 .bio-photo {
-    position: fixed;
-    top: 50%;
-    left: 50%;
-    margin-top: -200px;
-    margin-left: -200px;
+    width: 35%;
+    float: left;
 }
 
 .bpphoto {
@@ -154,41 +156,11 @@ body {
         height: 400px;
         width: 400px;
     }
-
-    .bio-photo {
-        position: fixed;
-        top: 60%;
-        left: 50%;
-        margin-left: -150px;
-        margin-top: -200px;
-    }
-
-    .bpphoto {
-        width: 300px;
-        height: 399px;
-    }
 }
 
 @media (max-width: 768px) {
     .social {
         display: none;
-    }
-
-    .bio-photo {
-        position: relative;
-        top: 0%;
-        left: 10%;
-        margin-left: 0px;
-        margin-top: 0px;
-    }
-
-    .bpphoto {
-        width: 250px;
-        height: 332px;
-    }
-
-    .bio {
-        width: 80%;
     }
 }
 
