@@ -21,6 +21,7 @@ if ($action=="")    /* display the contact form */
     <link href='http://fonts.googleapis.com/css?family=Poiret+One' rel='stylesheet' type='text/css'>
     <link href='http://fonts.googleapis.com/css?family=Tangerine:400,700' rel='stylesheet' type='text/css'>
     <!--<link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css" -->
+    <script src='https://www.google.com/recaptcha/api.js'></script>
 </head>
 <body>
    <nav class="navbar navbar-inverse">
@@ -63,8 +64,10 @@ if ($action=="")    /* display the contact form */
     <input name="email" type="text" value="" size="30"/><br> 
     Your message:<br> 
     <textarea name="message" rows="7" cols="30"></textarea><br> 
-    <input type="submit" value="Send email"/> 
+    <input type="submit" value="Send email"/>
     </form> 
+    <div class="g-recaptcha" data-sitekey="6LfDzAkTAAAAADsa0BOxq1slg5ErN6Pp18_QwO60"></div>
+  </div>
     <?php 
     }  
 else                /* send the submitted data */ 
