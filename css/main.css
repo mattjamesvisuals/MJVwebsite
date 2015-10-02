@@ -33,7 +33,7 @@ body {
 
 .main-content {
     position: absolute;
-    margin-top: 40%;
+    margin-top: 30%;
     margin-left: 50%;
 }
 
@@ -64,8 +64,8 @@ body {
 
 /* homepage styles */
 .main-image {
-    top: 50%;
-    left: 50%;
+    /*top: 50%;*/
+    /*left: 50%;*/
     width: 100%;
     max-width: 494px;
     -webkit-transform: translate(-50%, -50%);
