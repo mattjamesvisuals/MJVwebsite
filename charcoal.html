@@ -9,10 +9,11 @@
     <link rel="stylesheet" href="vendor/bootstrap/css/bootstrap-theme.min.css">
     <!-- custom styles -->
     <link rel="stylesheet" media="screen" href="css/main.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <link href="lightbox2-master/src/css/lightbox.css" rel="stylesheet">
     <link href='http://fonts.googleapis.com/css?family=Poiret+One' rel='stylesheet' type='text/css'>
     <link href='http://fonts.googleapis.com/css?family=Tangerine:400,700' rel='stylesheet' type='text/css'>
     <!-- Latest compiled and minified JavaScript -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
 </head>
 <body>
    <nav class="navbar navbar-inverse">
@@ -43,25 +44,20 @@
     </ul>
     </div>
     <div class="logo">Matt James Visuals</div>
-    <div class="slideshow">
-        <div class="galleria">
-            <img src="img/dorthy1500.png">
-            <img src="img/gene1500.png">
-            <img src="img/dia1500.png">
-            <img src="img/Lamb1500.png">
-            <img src="img/grace1500.png">
-            <img src="img/bebe1500.png">
-        </div>
+    <div class="pics">
+      <ul>
+        <li><a href="img/matchbox.png" data-lightbox="image-1" data-title="Matchbox"><img class= "gallery" src="img/matchbox.png"/></a></li>
+        <li><a href="img/gene1500.png" data-lightbox="image-2" data-title="Matchbox"><img class= "gallery" src="img/gene1500.png"/></a></li>
+        <li><a href="img/dorthy1500.png" data-lightbox="image-3" data-title="Matchbox"><img class= "gallery" src="img/dorthy1500.png"/></a></li>
+        <li><a href="img/bebe1500.png" data-lightbox="image-4" data-title="Matchbox"><img class= "gallery" src="img/bebe1500.png"/></a></li>
+        <!--<li><a href="img/grace1500.png" data-lightbox="image-5" data-title="Matchbox"><img class= "gallery" src="img/grace1500.png"/></a></li>
+        <li><a href="img/Lamb1500.png" data-lightbox="image-6" data-title="Matchbox"><img class= "gallery" src="img/Lamb1500.png"/></a></li>-->
+      </ul>
     </div>
     <div class="copyright">&#169 2015 Matt James Visuals. All rights reserved</div>
 <!-- Latest compiled and minified JavaScript -->
     <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.js"></script>
-    <script src="galleria/galleria-1.4.2.js"></script>
-    <script src="galleria/galleria-1.4.min.js"></script>
-    <script>
-    Galleria.loadTheme('galleria/themes/classic/galleria.classic.min.js');
-    Galleria.run('.galleria');
-    </script>
+    <script src="lightbox2-master/dist/js/lightbox.js"></script>
 </body>
 </html>
