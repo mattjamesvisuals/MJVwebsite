@@ -111,9 +111,9 @@ section {
 }
 
 .pics-container{
-    float:right;
+    /*float:right;*/
     margin: auto;
-    width: 80%;
+    width: 75%;
 }
 .pics li{
     display: inline;
