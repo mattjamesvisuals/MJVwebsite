@@ -2,19 +2,18 @@
 <html>
 <head>
     <title>Matt James Visuals</title>
+    <link rel="shortcut icon" type="image/png" href="img/favicon.png">
     <!-- Latest compiled and minified CSS -->
     <link rel="stylesheet" href="vendor/bootstrap/css/bootstrap.min.css">
     <!-- Optional theme -->
     <link rel="stylesheet" href="vendor/bootstrap/css/bootstrap-theme.min.css">
-    <link rel="stylesheet" media="screen" href="css/main.css">
     <!-- custom styles -->
-    <link rel="shortcut icon" type="image/png" href="img/favicon.png">
-    <link href='http://fonts.googleapis.com/css?family=Poiret+One' rel='stylesheet' type='text/css'>
-    <!-- Latest compiled and minified JavaScript -->
+    <link rel="stylesheet" media="screen" href="css/main.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
-    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.js"></script>
-    <script src="galleria/galleria-1.4.2.js"></script>
-    <script src="galleria/galleria-1.4.min.js"></script>
+    <link href="lightbox2-master/src/css/lightbox.css" rel="stylesheet">
+    <link href='http://fonts.googleapis.com/css?family=Poiret+One' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Tangerine:400,700' rel='stylesheet' type='text/css'>
+    <!-- Latest compiled and minified JavaScript -->
 </head>
 <body>
    <nav class="navbar navbar-inverse">
@@ -30,39 +29,39 @@
       <ul class="nav navbar-nav navbar-right">
         <li><a href="index.html">Home</a></li>
         <li><a href="bio.html">Bio</a></li>
-        <li class="active"><a href="paintings.html">Paintings</a></li>
-        <li><a href="charcoal.html">Charcoal</a></li>
+        <li><a href="paintings.html">Paintings</a></li>
+        <li class="active"><a href="charcoal.html">Charcoal</a></li>
         <li><a href="contact.php">Contact</a></li>
       </ul>
   </div>
   </nav>
-
-    <link href='http://fonts.googleapis.com/css?family=Tangerine:400,700' rel='stylesheet' type='text/css'>
     <div class="icon">
     <ul class="social">
-        <li><a href="contact.html"><img src="img/mail.png"></a></li>
+        <li><a href="contact.php"><img src="img/mail.png"></a></li>
         <li><a href="https://plus.google.com/u/0/115177500087185628581/about/p/pub"></a><img src="img/google.png"></li>
         <li><a href="https://instagram.com/mattjamesvisuals/"><img src="img/instagram.png"></a></li>
         <li><a href="https://www.facebook.com/mattjamespaints"><img src="img/facebook.png"></a></li>
     </ul>
     </div>
     <div class="logo">Matt James Visuals</div>
-    <div class="slideshow">
-        <div class="galleria">
-            <img src="img/icon.png">
-            <img src="img/amy.png">
-            <img src="img/eve.png">
-            <img src="img/joan.png">
-            <img src="img/Mary.png">
-            <img src="img/mel.png">
-        </div>
+    <div class="pics-container">
+      <ul class="pics">
+        <li><a href="img/amy.png" data-lightbox="image-1" data-title="Matchbox"><img class= "gallery" src="img/amy.png"/></a></li>
+        <li><a href="img/eve.png" data-lightbox="image-2" data-title="Matchbox"><img class= "gallery" src="img/eve.png"/></a></li>
+        <li><a href="img/dittaedit1.jpg" data-lightbox="image-3" data-title="Matchbox"><img class= "gallery" src="img/dittaedit1.jpg"/></a></li>
+        <li><a href="img/mel.png" data-lightbox="image-4" data-title="Matchbox"><img class= "gallery" src="img/mel.png"/></a></li>
+        <li><a href="img/joan.png" data-lightbox="image-5" data-title="Matchbox"><img class= "gallery" src="img/joan.png"/></a></li>
+        <li><a href="img/libertedit1.jpg" data-lightbox="image-6" data-title="Matchbox"><img class= "gallery" src="img/libertedit1.jpg"/></a></li>
+        <li><a href="img/mainimage.png" data-lightbox="image-7" data-title="Matchbox"><img class= "gallery" src="img/mainimage.png"/></a></li>
+        <li><a href="img/Mary.png" data-lightbox="image-8" data-title="Matchbox"><img class= "gallery" src="img/Mary.png"/></a></li>
+        <li><a href="img/leftedit1.jpg" data-lightbox="image-9" data-title="Matchbox"><img class= "gallery" src="img/leftedit1.jpg"/></a></li>
+        <li><a href="img/frozenedit1.jpg" data-lightbox="image-10" data-title="Matchbox"><img class= "gallery" src="img/frozenedit1.jpg"/></a></li>
+       </ul>
     </div>
     <div class="copyright">&#169 2015 Matt James Visuals. All rights reserved</div>
 <!-- Latest compiled and minified JavaScript -->
     <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
-    <script>
-    Galleria.loadTheme('galleria/themes/classic/galleria.classic.min.js');
-    Galleria.run('.galleria');
-    </script>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.js"></script>
+    <script src="lightbox2-master/dist/js/lightbox.js"></script>
 </body>
 </html>
