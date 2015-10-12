@@ -87,6 +87,8 @@ section {
 }
 
 .bio {
+    font-family: 'Raleway', sans-serif;
+    font-size:18px;
     color: black;
     float: left;
     width: 25%;
@@ -95,11 +97,11 @@ section {
 }
 
 .bio-photo {
-    position: fixed;
+    /*position: fixed;*/
     top: 50%;
     left: 65%;
-    margin-top: -200px;
-    margin-left: -200px;
+    margin-top: 150px;
+    margin-left: 200px;
     width: 65%;
     padding-right: 10px;
 }
@@ -108,6 +110,10 @@ section {
     width: 35%;
     float: left;
 
+}
+.bpphoto {
+    width: 400px;
+    height: 550px;
 }
 
 .pics-container{
