@@ -54,10 +54,10 @@ background-size: cover;
 
 
 .copyright {
-    /*position: fixed;*/
-    bottom: 10px;
+    position: fixed;
+    bottom: 5px;
     width: 30%;
-    background: white;
+    float:right;
     /*left: 70%*/
 }
 
@@ -89,33 +89,29 @@ section {
 
 .bio {
     font-family: 'Raleway', sans-serif;
-    font-size:18px;
+    font-size: 35px;
     color: black;
     float: left;
-    width: 25%;
+    width: 75%;
     margin-left: 15%;
     margin-top: 150px;
 }
 
 .bio-photo {
-    /*position: fixed;*/
-    top: 50%;
+    position: fixed;
+    top: 60%;
     left: 65%;
-    margin-top: 150px;
+    margin-top: 140px;
     margin-left: 200px;
-    width: 65%;
-    padding-right: 10px;
-}
-
- .bio-photo {
     width: 35%;
+    padding-right: 10px;
     float: left;
-
 }
-.bpphoto {
+
+ /*.bpphoto {
     width: 400px;
     height: 550px;
-}
+}*/
 
 .pics-container{
     /*float:right;*/
@@ -190,48 +186,45 @@ section {
 
 /* Narrower than 1045px */
 @media (max-width: 1045px) {
-.logo {
-font-size: 40px;
-}
+    .logo {
+    font-size: 40px;
+    }
 
-.main-content {
-position: absolute;
-top: 375px;
-left: 50%;
-margin-left: -175px;
-margin-top: -226px;
-}
+    .main-content {
+    position: absolute;
+    top: 375px;
+    left: 50%;
+    margin-left: -175px;
+    margin-top: -226px;
+    }
 
-.main-image {
-width: 350px;
-height: 452px;
-}
+    .main-image {
+    width: 350px;
+    height: 452px;
+    }
 
-.slideshow {
-position: absolute;
-top: 375px;
-left: 50%;
-margin-left: -200px;
-margin-top: -200px;
-}
+    .slideshow {
+    position: absolute;
+    top: 375px;
+    left: 50%;
+    margin-left: -200px;
+    margin-top: -200px;
+    }
 
 
-.bio-photo {
-position: fixed;
-top: 60%;
-left: 50%;
-margin-left: -150px;
-margin-top: -200px;
-}
+    .bio-photo {
+     width: 80%;
+     margin: auto;
+     margin-left: 10%;
+    }
 
-.bpphoto {
-width: 300px;
-height: 399px;
-}
+    .bpphoto {
+    width: 100%;
+    }
 
 }
 
-@media (max-width: 768px) {
+@media (max-width: 736px) {
     .social {
         display: none;
     }
@@ -276,4 +269,20 @@ height: 399px;
         padding-left: 3%;
         padding-right: 3%;
     }
+
+    /*.bio {
+        font-family: 'Raleway', sans-serif;
+        font-size: 35px;
+        color: black;
+        float: left;
+        width: 75%;
+        margin-left: 15%;
+        margin-top: 150px;
+    }
+
+    .bio-photo {
+        width: 80%;
+        margin: auto;
+        margin-left: 10%;
+    }*/
 }

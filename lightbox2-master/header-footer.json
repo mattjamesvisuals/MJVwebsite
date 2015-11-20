@@ -1,0 +1,227 @@
+pubData({"pub":
+	{
+		"title":"The Burleson Star",
+		"shortTitle" : "Burleson Star",
+		"baseURL": "http://www.burlesonstar.net",
+		"localURL": "http://local.burlesonstar.net",
+		"registration":"none",
+		"disqusID": "burleson-star",
+		"loc" : {
+			"city" : "Burleson",
+			"state" : "TX",
+			"zip": "76028",
+			"weatherStation":"",
+			"weatherLinkDomain": "www.burlesonstar.net",
+			"weatherLink": "/weather"
+		},
+		"social" : {
+			"facebook" : "https://www.facebook.com/burlesonstar",
+			"twitter" : "https://twitter.com/BurlesonStar",
+			"rss" : "http://feeds.burlesonstar.net/mngi/rss/CustomRssServlet/58/256101.xml"
+		},
+		"contact": {
+                "subscribe": "/subscribe"
+            },
+		"takeaction": {
+			"Got a news tip?": "mailto:subs@thestargroup.com",
+			"Send us a photo": "mailto:stargroupphotos@gmail.com"
+		},
+      "verticals": {
+         "autos": {
+            "title": "",
+            "link": ""
+         },
+         "realestate": {
+            "title": "",
+            "link": ""
+         },
+         "jobs": {
+            "title": "",
+            "link": ""
+         }
+      },
+      "pop_config": {
+          "quantity": "8",
+          "location": "bottom",
+          "inarticle": "1",
+          "tabs": {
+              "Day": "day",
+              "Hour": "hour",
+              "News": "news",
+              "Sports": "sports",
+              "Biz": "business",
+              "Op/Ed": "opinion",
+              "A&amp;E": "entertainment",
+              "Email": "emailed",
+              "Style": "style"
+          }
+      },
+		"nav": [
+			{
+			"navTitle": "News", 
+			"navURL": "/news",
+			"navFeed":"http://feeds.burlesonstar.net/mngi/rss/CustomRssServlet/58/264400.xml",
+			"hideIn": "", 			
+			"navChildren": [
+			{
+				"navChildTitle" : "Local",
+				"navChildLink"  : "/localnews" 
+			},
+			{
+				"navChildTitle" : "Area Communities",
+				"navChildLink"  : "/areanews" 
+			},  			{
+				"navChildTitle" : "Texas",
+				"navChildLink"  : "/texasnews" 
+			}, 			{
+				"navChildTitle" : "National",
+				"navChildLink"  : "/nationalnews" 
+			}, 			{
+				"navChildTitle" : "Video",
+				"navChildLink"  : "/video" 
+			}
+			]
+			},{
+			"navTitle": "Sports",
+			"navURL": "/sports",
+			"navFeed":"http://feeds.burlesonstar.net/mngi/rss/CustomRssServlet/58/264401.xml",
+			"hideIn": "",
+			"navChildren": [
+			{
+				"navChildTitle" : "Elks",
+				"navChildLink"  : "/elks" 
+			},
+			{
+				"navChildTitle" : "Spartans",
+				"navChildLink"  : "/spartans" 
+			},  			
+			{
+				"navChildTitle" : "Sports Videos",
+				"navChildLink"  : "/sportsvideos" 
+			}, 			
+			{
+				"navChildTitle" : "College Sports",
+				"navChildLink"  : "/nationalnews" 
+			}, 			
+			{
+				"navChildTitle" : "Local Sports",
+				"navChildLink"  : "/localsports" 
+			},
+			{
+				"navChildTitle" : "Game Notes/Quotes",
+				"navChildLink"  : "/gamenotesquotes" 
+			},
+			{
+				"navChildTitle" : "Daily Sports Notes",
+				"navChildLink"  : "/dailysportsnotes" 
+			}
+			]
+			},
+			{
+			"navTitle": "Business",
+			"navURL": "/business",
+			"navFeed":"http://feeds.burlesonstar.net/mngi/rss/CustomRssServlet/58/264403.xml",
+			"hideIn": "",
+			"navChildren": []
+			},
+			{
+			"navTitle": "Entertainment",
+			"navURL": "/calendar",
+			"navFeed":"http://feeds.burlesonstar.net/mngi/rss/CustomRssServlet/58/264404.xml",
+			"hideIn": "",
+			"navChildren": []
+			},
+			{
+			"navTitle": "Lifestyle",
+			"navURL": "/lifestyles",
+			"navFeed":"http://feeds.burlesonstar.net/mngi/rss/CustomRssServlet/58/264402.xml",
+			"hideIn": "",
+			"navChildren": [
+			{
+				"navChildTitle" : "Features",
+				"navChildLink"  : "/features" 
+			}
+			]
+			},
+			{
+			"navTitle": "Obituaries",
+			"navURL": "/obituaries",
+			"navFeed":"http://feeds.burlesonstar.net/mngi/rss/CustomRssServlet/58/264406.xml",
+			"hideIn": "",
+			"navChildren": []
+			},
+			{
+			"navTitle": "Opinion",
+			"navURL": "/opinion",
+			"navFeed":"http://feeds.burlesonstar.net/mngi/rss/CustomRssServlet/58/264405.xml",
+			"hideIn": "",
+			"navChildren": []
+			},{
+			"navTitle": "Marketplace",
+			"navURL": "/classifieds",
+			"navFeed":"",
+			"hideIn": "",
+			"navChildren": [
+			{
+				"navChildTitle" : "Classifieds",
+				"navChildLink"  : "/classifieds" 
+			},
+			{
+				"navChildTitle" : "Local Guide",
+				"navChildLink"  : "http://mylocal.burlesonstar.net/" 
+			},
+			{
+				"navChildTitle" : "Today's Ads",
+				"navChildLink"  : "http://ads.burlesonstar.net/" 
+			},
+ 			{
+				"navChildTitle" : "Directory",
+				"navChildLink"  : "/businessdirectory" 
+			}
+			]
+			}, {
+			"navTitle": "Tools",
+			"navURL": "#",
+			"navFeed":"",
+			"hideIn":"",
+			"navChildren": [
+			{
+				"navChildTitle" : "Subscribe",
+				"navChildLink"  : "/subscribe" 
+			}, 			
+			{
+				"navChildTitle" : "Contact",
+				"navChildLink"  : "/contactus" 
+			}, 			
+			{
+				"navChildTitle" : "Forms",
+				"navChildLink"  : "/forms" 
+			},
+            {
+                "navChildTitle": "Work for us",
+                "navChildLink": "http://www.digitalfirstmedia.com/careers "
+            }
+			]
+			}
+		],
+		
+		"footer": [
+                {
+                    "fTitle": "Copyright",
+                    "fLink": "/portlet/layout/html/copyright/copyright.jsp?siteId=58"
+                },
+                {
+                    "fTitle": "Privacy Policy",
+                    "fLink": "http://www.digitalfirstmedia.com/privacy-policy/"
+                },
+                {
+                    "fTitle": "Site Map",
+                    "fLink": "/sitemap"
+                },
+                {
+                    "fTitle": "Digital First Media",
+                    "fLink": "http://www.digitalfirstmedia.com"
+                }
+            ]
+	}
+});
